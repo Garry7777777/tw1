@@ -1,24 +1,25 @@
 public class MyLinkedList<T> implements MyList<T> {
+    int size;
+    Node<T> first;
+    Node<T> last;
+    public static class Node<T>{
 
-
-
-    public class Node<T>{
-
-        private Node<T> item;
+        public Node<T> item;
         Node<T> next;
         Node<T> prev;
 
-        public Node() {
-
+        public Node(Node<T> item) {
+            this.item = item;
         }
-
-
     }
 
 
 
     @Override
-    public void add(T t) {
+    public void add(T item) {
+    N
+
+
 
     }
 
@@ -39,6 +40,6 @@ public class MyLinkedList<T> implements MyList<T> {
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 }
